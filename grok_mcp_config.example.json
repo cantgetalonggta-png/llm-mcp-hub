@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "llm-mcp-hub": {
+      "command": "python3",
+      "args": ["/ABSOLUTE/PATH/TO/llm-mcp-hub/llm_mcp_hub.py"],
+      "env": {
+        "OPENAI_API_KEY": "",
+        "ANTHROPIC_API_KEY": "",
+        "XAI_API_KEY": "",
+        "GOOGLE_API_KEY": ""
+      }
+    }
+  }
+}
