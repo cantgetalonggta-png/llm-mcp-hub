@@ -1,0 +1,14 @@
+[project]
+name = "llm-mcp-hub"
+version = "1.1.0"
+description = "Local MCP + Vercel HTTP hub for OpenAI, Anthropic, xAI, Gemini"
+requires-python = ">=3.10"
+dependencies = [
+  "fastapi>=0.115.0",
+  "python-dotenv>=1.0.0",
+  "mcp[cli]>=2.0.0",
+]
+
+[tool.vercel]
+# module.path:variable — FastAPI app for serverless
+entrypoint = "api.index:app"
